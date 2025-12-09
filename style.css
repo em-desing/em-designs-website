@@ -1,1 +1,60 @@
-body{background:#fff;}
+/* تصميم عام للموقع */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  direction: rtl; /* الكتابة من اليمين لليسار */
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* ترويسة الموقع */
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* قسم الترحيب */
+.hero {
+  padding: 50px;
+  text-align: center;
+  background: #e3e3e3;
+}
+
+/* قسم معرض الأعمال */
+.portfolio, .portfolio-gallery {
+  padding: 30px;
+  text-align: center;
+}
+
+.projects img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* قسم صفحات “عننا” و”تواصل معنا” */
+.about, .contact {
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* تذييل الموقع */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+}
